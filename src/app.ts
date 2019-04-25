@@ -14,10 +14,12 @@ import { Settings } from 'luxon'
 
 // Custom imports
 import Datepicker from './components/Datepicker.vue'
+import CrudTable from '@/components/common/tables/CrudTable.vue'
 
 
 // Component declarations
 Vue.component('date-picker', Datepicker)
+Vue.component('crud-table', CrudTable)
 
 // Library applies
 Settings.defaultLocale = 'nl'
